@@ -1,4 +1,4 @@
-package javaAssignments;
+package javaAssignments3;
 
 public class problemsRegex {
 public static void main(String[] args) {
