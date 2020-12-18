@@ -1,4 +1,4 @@
-package javaAssignments;
+package javaAssignments41;
 
 public class Main {
 

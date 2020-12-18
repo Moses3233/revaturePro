@@ -1,4 +1,4 @@
-package javaAssignments;
+package javaAssignments41;
 
 public class Address {
 
@@ -36,6 +36,13 @@ public class Address {
 	public int getZip() {
 		return zip;
 	}
+	
+	@Override
+	public String toString() {
+		return "Address [aid=" + aid + ", streetName=" + streetName + ", city=" + cityName +  ", zip=" + zip + ", toString()="
+				+ super.toString() + "]";
+	}
+	
 }
 
 

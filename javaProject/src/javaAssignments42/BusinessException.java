@@ -1,4 +1,4 @@
-package javaAssignments4;
+package javaAssignments42;
 
 public class BusinessException extends RuntimeException {
 

@@ -1,4 +1,4 @@
-package javaAssignments4;
+package javaAssignments42;
 
 
 public class CustomMain {
@@ -7,7 +7,7 @@ public class CustomMain {
 
 		Validation v=new Validation();
 		try {
-			if(v.isValidAge(41)) {
+			if(v.isValidDL("")) {
 				System.out.println("Age Validated");
 			}
 		} catch (InvalidAgeException e) {
@@ -15,8 +15,8 @@ public class CustomMain {
 		}
 
 		try {
-		if(v.isValidMobileNumber("+1-9123456780")) {
-			System.out.println("Mobile Number Validated");
+		if(v.isValidPassportNumber("9123456780")) {
+			System.out.println("Passprt Number Validated");
 		}
 		}catch(BusinessException e) {
 			System.out.println(e.getMessage());

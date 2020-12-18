@@ -1,4 +1,4 @@
-package javaAssignments;
+package javaAssignments41;
 
 public class Player extends Person{
 
@@ -19,6 +19,9 @@ public class Player extends Person{
 		return team;
 	}
 	
-	
+	public String toString() {
+		return "Player [Team=" + team + ", Rating=" + rating + ", toString()="
+				+ super.toString() + "]";
+	}
 	
 }

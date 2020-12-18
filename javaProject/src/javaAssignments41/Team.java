@@ -1,4 +1,4 @@
-package javaAssignments;
+package javaAssignments41;
 
 public class Team {
 
@@ -26,5 +26,9 @@ public String getCoachName() {
 	return coachName;
 }
 
+public String toString() {
+	return "Address [Team id=" + teamId + ", teamName=" + teamName + ", Coach Name=" + coachName + ", toString()="
+			+ super.toString() + "]";
+}
 
 }
