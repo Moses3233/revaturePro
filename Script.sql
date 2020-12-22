@@ -62,5 +62,10 @@ where (recipient = 'Juanpi');
 select min(prize)
 from payout;
 
+select p."Name" 
+from player p
+union
+select t.playername 
+from team t;
 
 drop table payout;
