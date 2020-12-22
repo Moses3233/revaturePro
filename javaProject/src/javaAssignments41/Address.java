@@ -7,7 +7,7 @@ public class Address {
 	private String cityName;
 	private int zip;
 
-	public Address() {
+	public Address(int aid, String streetName, String cityName, int zip) {
 		// TODO Auto-generated constructor stub
 	}
 	

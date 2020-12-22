@@ -18,8 +18,17 @@ public class Main {
 		System.out.println("e3");
 		System.out.println(e3);
 
-		
+		Address a1 = new Address(300, "Rocky Road", "Candyland", 12354);
+		System.out.println("a1");
+		System.out.println(a1);
 
+		Team t1 = new Team(300, "Spartans", "Leonidas");
+		System.out.println("t1");
+		System.out.println(t1);
+		
+		Player pla1 = new Player(0.95, t1);
+		System.out.println("pla1");
+		System.out.println(pla1);
 
 	}
 }

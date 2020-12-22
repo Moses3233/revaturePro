@@ -6,6 +6,9 @@ public class Team {
 	private String teamName;
 	private String coachName;
 	
+public Team(int teamId, String teamName, String coachName) {}
+
+	
 public void setTeamId(int teamId) {
 	this.teamId = teamId;
 }

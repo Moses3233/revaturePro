@@ -4,6 +4,8 @@ public class Player extends Person{
 
 	private double rating;
 	private Team team;
+	
+	public Player(double rating, Team team) {}
 
 	public void setRating(double rating) {
 		this.rating = rating;
