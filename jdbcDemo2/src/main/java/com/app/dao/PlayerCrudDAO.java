@@ -8,9 +8,9 @@ import com.app.model.Player;
 public interface PlayerCrudDAO {
 	
 public int createPlayer(Player player) throws BusinessException;
-public void deletePlayer(String playedby);
-public int updatePlayerRank(String playedby, int Rank);
-public Player getPlayerByCharacter(String Name);
-public List<Player> getAllPlayers();
+public void deletePlayer(String playedby) throws BusinessException;
+public int updatePlayerRank(String playedby, int Rank) throws BusinessException;
+public Player getPlayerByCharacter(String Name) throws BusinessException;
+public List<Player> getAllPlayers() throws BusinessException;
 
 }

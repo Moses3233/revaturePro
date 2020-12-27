@@ -6,6 +6,11 @@ public class Player {
 	private int id;
 	private String playedby;
 	private int Rank;
+	
+	public Player() {
+		
+		
+	}
 
 	public Player(String Name, int id, String playedby, int Rank) {
 		
