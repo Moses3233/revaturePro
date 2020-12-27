@@ -85,7 +85,7 @@ return c;
 				player.setPlayedby(resultSet.getString("playedby"));
 				player.setRank(resultSet.getInt("Rank"));
 			}else {
-				throw new BusinessException("No Player with the name: " + Name);
+				throw new BusinessException("No Player with the Character: " + Name);
 			}
 		} catch (ClassNotFoundException | SQLException e) {
 			throw new BusinessException("An Internal error has occured");
