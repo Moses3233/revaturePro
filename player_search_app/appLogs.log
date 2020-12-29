@@ -1,0 +1,5 @@
+{INFO} com.app.main.helloLogMain	Hello there! 2020-12-29 14:18:31,257[dd-MMM-yyyy EEEE HH:mm:ss]
+{ERROR} com.app.main.helloLogMain	Is there an echo? 2020-12-29 14:18:31,258[dd-MMM-yyyy EEEE HH:mm:ss]
+{WARN} com.app.main.helloLogMain	- No 2020-12-29 14:18:31,258[dd-MMM-yyyy EEEE HH:mm:ss]
+{FATAL} com.app.main.helloLogMain	Okay then... 2020-12-29 14:18:31,258[dd-MMM-yyyy EEEE HH:mm:ss]
+{INFO} com.app.Logs.helloLogs	hello from the logs 2020-12-29 14:18:31,259[dd-MMM-yyyy EEEE HH:mm:ss]
